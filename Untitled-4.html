@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Курс JavaScript</title>
+</head>
+<body>
+    <header>
+    </header>    
+    <div class="content">
+        <script>
+            let person = {
+                surname: 'Карамзин',
+                name: 'Виктор',
+                patronymic: 'Геннадьевич',
+                occupation: 'Программист'
+            };
+
+            let line = `<h2>${person.surname} ${person.name} ${person.patronymic}</h2>
+                        <p><i>Должность: </i> ${person.occupation}</p>`;
+
+            document.write(line);
+        </script>
+    </div>
+</body>
+</html>

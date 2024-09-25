@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Курс JavaScript</title>
+    <script>
+        let NAME = 'Василий';
+        let LOGIN = 'vasya123'; 
+        let AGE = '18';
+        let EMAIL = 'vasya123@mail.ru';
+    </script>
+</head>
+<body>
+    <header>
+        <h1 align="center">Введение в JavaScript</h1>
+    </header>    
+    <div class="content">
+        <script>
+            console.log("Исходные значения переменных");
+            console.log('Имя: ' + NAME);
+            console.log('Логин:' + LOGIN);
+            console.log('Возраст:' + AGE);
+            console.log('E-mail:' + EMAIL);
+            
+            NAME = 'Анна';
+            LOGIN = 'anyta987';
+            AGE = '17';
+            EMAIL = 'anyta987@mail.ru';
+            
+            console.log("Новые значения переменных");
+            console.log('Имя: ' + NAME);
+            console.log('Логин:' + LOGIN);
+            console.log('Возраст:' + AGE);
+            console.log('E-mail:' + EMAIL);
+
+            document.write("Исходные значения переменных:<br>");
+            document.write("Имя: " + NAME + "<br>");
+            document.write("Логин: " + LOGIN + "<br>");
+            document.write("Возраст: " + AGE + "<br>");
+            document.write("E-mail: " + EMAIL + "<br><br>");
+
+            document.write("Новые значения переменных:<br>");
+            document.write("Имя: " + NAME + "<br>");
+            document.write("Логин: " + LOGIN + "<br>");
+            document.write("Возраст: " + AGE + "<br>");
+            document.write("E-mail: " + EMAIL + "<br>");
+        </script>
+    </div>
+</body>
+</html>
+
